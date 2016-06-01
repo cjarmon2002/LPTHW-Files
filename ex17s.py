@@ -1,0 +1,1 @@
+from sys import argv; script, one, two = argv; inf = open(one); ind = inf.read(); ouf = open(two, 'w'); ouf.write(ind); ouf.close(); inf.close()
